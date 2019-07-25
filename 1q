@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main{
+public static void main(String[] args){
+	Scanner sc=new Scanner(System.in);
+	System.out.println("１０月は英語で？");
+String a=sc.nextLine();
+if(a.equals("October")){
+System.out.println("ok!");
+}else{
+System.out.println("Ng");
+}
+}
+
+
+}
